@@ -1,4 +1,4 @@
-name: Azure Bicep-Advanced
+name: Deploy-IaC-Advanced
 
 on:
   workflow_dispatch:
