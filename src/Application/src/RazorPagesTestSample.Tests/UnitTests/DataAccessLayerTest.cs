@@ -46,6 +46,10 @@ namespace RazorPagesTestSample.Tests.UnitTests
                 // Assert
                 var actualMessage = await db.FindAsync<Message>(recId);
                 Assert.Equal(expectedMessage, actualMessage);
+
+                // Added test to make this fail
+                var fakeMessage = new Message() { Id = recId + 1, Text = "Fake Message" };
+                Assert.Equal(fakeMessage, actualMessage);
             }
         }
 
