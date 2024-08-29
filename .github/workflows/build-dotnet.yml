@@ -1,4 +1,4 @@
-name: Build and Test .Net App to Dev, Test, and Prod Azure App Service
+name: Build-Test .Net App to Dev, Test, and Prod Azure App Service
 
 env:
   registryName: 6m5h7lwxxtw2ampnpreg.azurecr.io
