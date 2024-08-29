@@ -2,9 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
+    <ApplicationInsightsResourceId>/subscriptions/33e81e94-c18c-4d5a-a613-897c92b35411/resourceGroups/rg-techexcel-devproductivity/providers/microsoft.insights/components/6m5h7lwxxtw2a-mpnp-ai</ApplicationInsightsResourceId>
+    <UserSecretsId>260e0b93-4840-4feb-bc39-3a83a427e0c3</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.21.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.8" />
   </ItemGroup>
